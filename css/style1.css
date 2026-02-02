@@ -6,6 +6,7 @@
 
 body {
     height: 100vh;
+    width: 100vw;
     background-color: rgba(2, 6, 24);
 }
 
@@ -70,16 +71,24 @@ nav {
     border-radius: 5px;
 }
 
-section{
+section {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.section{
     color: white;
-    margin-left: 25%;
-    margin-top: 12%;
-    width: 800px;
-    height: 500px;
+    width: 60%;
+    height: 50%;
+    margin-top: 10%;
     background-color: rgba(8, 14, 34);
     border: 1px solid rgba(28, 39, 60);
     border-radius: 12px;
 }
+
+
 label {
     columns: black;
 }
@@ -98,8 +107,8 @@ input[type=text]{
 
 
 #info {
-    height: 150px;
-    width: 100%;
+    height: 150%;
+    width: 93%;
     background-color: rgba(17, 26, 47);
     padding: 12px 20px 12px 35px;
 }
